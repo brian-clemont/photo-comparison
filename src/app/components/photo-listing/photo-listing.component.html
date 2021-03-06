@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class="w-25 mx-auto pt-2">
+      <div class="mx-auto pt-2">
         <pagination *ngIf="photoLists" [itemsPerPage]="12" [totalItems]="photoLists.length" [maxSize]="5"
           (pageChanged)="pageChanged($event)"></pagination>
       </div>
